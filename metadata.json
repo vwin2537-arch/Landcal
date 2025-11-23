@@ -1,0 +1,5 @@
+{
+  "name": "LandCal: Thai Area Calculator",
+  "description": "A professional tool for calculating land area from UTM coordinates using the Thai measurement system (Rai-Ngan-Sq.Wah) with AI-powered insights.",
+  "requestFramePermissions": []
+}
