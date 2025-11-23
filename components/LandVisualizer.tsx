@@ -136,7 +136,7 @@ const LandVisualizer: React.FC<Props> = ({ coordinates }) => {
                 isAnimationActive={false}
                 shape={(props: any) => {
                     const { cx, cy, payload } = props;
-                    if (payload.isClosure) return null;
+                    if (payload.isClosure) return <g />;
                     return (
                         <circle cx={cx} cy={cy} r={4} fill="#047857" stroke="white" strokeWidth={1.5} />
                     );
